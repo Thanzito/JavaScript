@@ -1,9 +1,13 @@
-console.log("trabalhando com atribuição de variáveis");
+console.log("Trabalhando com atribuuição de variáveis");
 
 const idade = 26;
-const nome = "Nathan";
-const sobrenome = "cavalcante";
+const primeironome = "Gabriel";
+const sobrenome = "Pires";
 
-console.log(nome + " " + sobrenome);
-console.log(nome, sobrenome);
-console.log(`Meu nome é ${nome} ${sobrenome}`);
+const nomeCompleto = primeironome + sobrenome;
+
+console.log(primeironome + " " + sobrenome);
+console.log(primeironome, sobrenome);
+console.log(`Meu nome é ${primeironome} ${sobrenome}`);
+console.log(`Meu nome é ${nomeCompleto}`);
+
